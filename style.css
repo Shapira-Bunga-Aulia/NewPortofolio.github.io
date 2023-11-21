@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: red;
+}
+
+h3 {
+    color: firebrick;
+}
+
+.logo {
+    font-size: 40px;
+    font-style: italic;
+}
+
+footer {
+    padding: 20px;
+    color: black;
+    background-color: silver;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* nav {
+    top: 0;
+    position: sticky;
+} */
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    padding-inline: 1rem;
+}
+
+nav li:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+main {
+   margin: 0;
+   background-size: cover;
+   background-color: aliceblue;
+   padding: 10px 20px;
+   display: flex;
+   gap: 1.5rem;
+}
+
+aside figcaption {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: silver;
+    display: flex;
+    /* display: inline; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 5px;
+  }
+
+  #content {
+    width: 67%;
+  }
+
+  .card-profile {
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    width: 120%;
+    text-align: center;
+    max-height: 500px;
+  }
+
+.informasi {
+    text-align: left;
+    margin-left: 40px;
+}
